@@ -9,9 +9,9 @@
 * load_dotenv 
 * os 
 * firebase 
-and edit file .env_ex to .env and add link firebase u
-Now can run file index.py with **_python index.py_**
+<br>and edit file .env_ex to .env and add link firebase u
+<br>Now can run file index.py with **_python index.py_**
 * Step 2 
- Go to folder web-detect-car and install module nextjs with **_npm install_**
+<br> Go to folder web-detect-car and install module nextjs with **_npm install_**
  and run web with **_npm run dev_** 
  Go to http://localhost:3000/
