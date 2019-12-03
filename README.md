@@ -19,3 +19,12 @@
   - add about firebase u in config in file firebase.js
   - run web with **_npm run dev_** 
   - Go to http://localhost:3000/
+## How to get apikey firebase
+- Can do follow https://firebase.google.com/docs/web/setup/
+### Or
+- Open the Firebase Console.
+- If you haven’t created an API project yet, click Create Project.
+- Find your Firebase project and click Project Name.
+- click the setting icon and select "Project Setting" menu
+![Google ](https://dev.tapjoy.com/wp-content/uploads/2016/03/Untitled-2.png)
+![Google ](https://www.img.in.th/images/9e651516211796bf0cf44ac0a17bf0a8.jpg)
