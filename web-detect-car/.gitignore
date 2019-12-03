@@ -4,4 +4,3 @@ testenv.py
 /node_modules
 /lib/firebase.js
 /.next
-/lib

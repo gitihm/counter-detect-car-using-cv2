@@ -11,13 +11,15 @@ firebase = firebase.FirebaseApplication(os.getenv("FIREBASE"))
 
 def update(type , count_in , count_out):
     if type == 'in':
-        firebase.put('/user','in',count_in)
+        p=1
+    #     firebase.put('/user','in',count_in)
     else:
-        firebase.put('/user','out',count_out)
-    firebase.put('/user','all',count_in+count_out)
+        p=0
+    #     firebase.put('/user','out',count_out)
+    # firebase.put('/user','all',count_in+count_out)
      
 if __name__=='__main__':
-    cap = cv2.VideoCapture('data/car.mp4')
+    cap = cv2.VideoCapture('data/c4.mp4')
     frames_count, fps, width, height = cap.get(cv2.CAP_PROP_FRAME_COUNT), cap.get(cv2.CAP_PROP_FPS), cap.get(
         cv2.CAP_PROP_FRAME_WIDTH), cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
     width = int(width)
@@ -78,11 +80,11 @@ if __name__=='__main__':
             cv2.drawContours(image, hull, -1, (0, 255, 0), 3)
 
             # line created to stop counting contours, needed as cars in distance become one big contour
-            lineypos = 225
+            lineypos = 215
             cv2.line(image, (0, lineypos), (width, lineypos), (255, 0, 0), 5)
 
             # line y position created to count contours
-            lineypos2 = 250
+            lineypos2 = 240
             cv2.line(image, (0, lineypos2), (width, lineypos2), (0, 255, 0), 5)
 
             # min area for contours in case a bunch of small noise contours are created
@@ -322,20 +324,20 @@ if __name__=='__main__':
             cv2.imshow("countours", image)
             cv2.moveWindow("countours", 0, 0)
 
-            # cv2.imshow("fgmask", fgmask)
-            # cv2.moveWindow("fgmask", int(width * ratio), 0)
+            cv2.imshow("fgmask", fgmask)
+            cv2.moveWindow("fgmask", int(width * ratio), 0)
 
-            # cv2.imshow("closing", closing)
-            # cv2.moveWindow("closing", width, 0)
+            cv2.imshow("closing", closing)
+            cv2.moveWindow("closing", width, 0)
 
-            # cv2.imshow("opening", opening)
-            # cv2.moveWindow("opening", 0, int(height * ratio))
+            cv2.imshow("opening", opening)
+            cv2.moveWindow("opening", 0, int(height * ratio))
 
-            # cv2.imshow("dilation", dilation)
-            # cv2.moveWindow("dilation", int(width * ratio), int(height * ratio))
+            cv2.imshow("dilation", dilation)
+            cv2.moveWindow("dilation", int(width * ratio), int(height * ratio))
 
-            # cv2.imshow("binary", bins)
-            # cv2.moveWindow("binary", width, int(height * ratio))
+            cv2.imshow("binary", bins)
+            cv2.moveWindow("binary", width, int(height * ratio))
 
             video.write(image)  # save the current image to video file from earlier
 
