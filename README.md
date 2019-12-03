@@ -1,5 +1,4 @@
-# Hello this is my project in 
-#240-380	SIGNALS AND IMAGE PROCESSING
+## Hello this is my project in 240-380	SIGNALS AND IMAGE PROCESSING
 ## Continue to develop from [jorgem0](https://github.com/jorgem0/traffic_counter)
 ## How to use
 * Step 1
