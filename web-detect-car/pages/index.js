@@ -47,13 +47,13 @@ const Layout = () => {
                   <hr />
                 </Col>
                 <Col>
-                  <h3>รถขาเข้า :{ins} </h3>
+                  <h3>รถขาเข้า : {ins} </h3>
                 </Col>
                 <Col>
-                <h3>รถขาออก : {out}</h3>
+                <h3>รถขาออก :  {out}</h3>
                 </Col>
                 <Col>
-                  <h3>ทั้งหมด : {all}</h3>
+                  <h3>ทั้งหมด :  {all}</h3>
                 </Col>
               </Row>
             </div>
