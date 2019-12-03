@@ -10,8 +10,8 @@
 * os 
 * firebase 
 ### and edit file .env_ex to .env and add link firebase u
-### Now can run file index.py with *python index.py*
+### Now can run file index.py with **_python index.py_**
 * Step 2 
-### Go to folder web-detect-car and install module nextjs with *npm install*
+### Go to folder web-detect-car and install module nextjs with **_npm install_**
 ### and run web with *npm run dev* 
 ### Go to http://localhost:3000/
