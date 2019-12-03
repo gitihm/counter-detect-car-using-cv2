@@ -1,7 +1,9 @@
 ### Hello this is my project in 240-380	SIGNALS AND IMAGE PROCESSING
 ## Continue to develop from [jorgem0](https://github.com/jorgem0/traffic_counter)
-![Google ](https://uppic.cc/d/5Y18)
-![Google ](https://uppic.cc/d/5Y1B)
+### Example Web
+![Google ](https://sv1.picz.in.th/images/2019/12/04/iwuV8k.jpg)
+### Example python using CV2
+![Google ](https://sv1.picz.in.th/images/2019/12/04/iwua0v.png)
 
 ## How to use
 ### Step 1
