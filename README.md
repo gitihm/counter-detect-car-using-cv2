@@ -2,16 +2,18 @@
 ## Continue to develop from [jorgem0](https://github.com/jorgem0/traffic_counter)
 ## How to use
 * Step 1
-### install module python 
+#### install module python 
 * numpy 
 * cv2 
 * pandas  
 * load_dotenv 
 * os 
 * firebase 
-<br>and edit file .env_ex to .env and add link firebase u
+#### Run python 
+and edit file .env_ex to .env and add link firebase u
 <br>Now can run file index.py with **_python index.py_**
 * Step 2 
-<br> Go to folder web-detect-car and install module nextjs with **_npm install_**
- and run web with **_npm run dev_** 
- Go to http://localhost:3000/
+#### install module nextjs
+ * Go to folder web-detect-car and install module nextjs with **_npm install_**
+ * run web with **_npm run dev_** 
+ * Go to http://localhost:3000/
