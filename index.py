@@ -42,7 +42,7 @@ if __name__=='__main__':
     ratio = .5  # resize ratio
     image = cv2.resize(frame, (0, 0), None, ratio, ratio)  # resize image
     width2, height2, channels = image.shape
-    video = cv2.VideoWriter('traffic_counter.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), fps, (height2, width2), 1)
+    video = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), fps, (height2, width2), 1)
     pev_in = 0
     pev_out = 0
     firebase.put('/user','all',0)
