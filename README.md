@@ -1,5 +1,8 @@
 ### Hello this is my project in 240-380	SIGNALS AND IMAGE PROCESSING
 ## Continue to develop from [jorgem0](https://github.com/jorgem0/traffic_counter)
+![Google ](https://uppic.cc/d/5Y18)
+![Google ](https://uppic.cc/d/5Y1B)
+
 ## How to use
 ### Step 1
 - #### install module python 
