@@ -26,5 +26,5 @@
 - If you haven’t created an API project yet, click Create Project.
 - Find your Firebase project and click Project Name.
 - click the setting icon and select "Project Setting" menu
-![Google ](https://dev.tapjoy.com/wp-content/uploads/2016/03/Untitled-2.png)
-![Google ](https://www.img.in.th/images/9e651516211796bf0cf44ac0a17bf0a8.jpg)
+<br>![Google ](https://dev.tapjoy.com/wp-content/uploads/2016/03/Untitled-2.png)
+<br>![Google ](https://www.img.in.th/images/9e651516211796bf0cf44ac0a17bf0a8.jpg)
